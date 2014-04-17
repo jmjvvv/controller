@@ -35,5 +35,7 @@ $(document).ready(function(){
 	$('#e-btn').click(function(){
 		$('#player').effect('explode');
 	});
+	
+	$("#controller").accordion({collapsible: true, active: false});
    
 });
