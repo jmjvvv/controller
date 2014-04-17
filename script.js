@@ -34,6 +34,6 @@ $(document).ready(function(){
 	});
 	$('#e-btn').click(function(){
 		$('#player').effect('explode');
-	})
+	});
    
 });
