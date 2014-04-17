@@ -26,8 +26,14 @@ $(document).ready(function(){
         $(".button").fadeTo("fast",0.5);    
     });
     
-   $('#up-btn').click(function(){
-      $('#player').effect('bounce',{time:5},500);
-   });
+   $('#s-btn').click(function(){
+		$('#player').effect('slide');
+	});
+	$('#b-btn').click(function(){
+		$('#player').effect('bounce',{time:5},500);
+	});
+	$('#e-btn').click(function(){
+		$('#player').effect('explode');
+	});
    
 });
