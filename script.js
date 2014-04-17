@@ -36,6 +36,7 @@ $(document).ready(function(){
 		$('#player').effect('explode');
 	});
 	
+	$('img').draggable();
 	
    
 });
