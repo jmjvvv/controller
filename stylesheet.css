@@ -39,7 +39,9 @@ ul li {
 }
 
 .button {
-	background-color: blue;
+	background-color: yellow;
+	color: #FFFFFF;
+	opacity: 0.5;
 	width: 80px;
 	height: 20px;
 
