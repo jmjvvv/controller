@@ -12,9 +12,12 @@ html, body {
 	left: 50%;
 	top: calc(50% - 20px);
 	left: calc(50% - 20px);
+	
+
+}
+img {
 	height: 230px;
 	width: 170px;
-
 }
 
 #controller {
