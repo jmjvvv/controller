@@ -27,5 +27,5 @@ $(document).ready(function(){
     });
     
     
-    $('controller').animate({ top: '+=100px'}, 1000);
+    $('#controller').animate({ top: '+=100px'}, 1000);
 });
