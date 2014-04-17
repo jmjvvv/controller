@@ -17,10 +17,11 @@ $(document).ready(function(){
    $('#out-btn').click(function(){
       $('#player').fadeOut();
    });
-   $("div").mouseenter(function(){
-        $("div").fadeTo("fast",1);
+   
+   $(".button").mouseenter(function(){
+        $(".button").fadeTo("fast",1);
     });
-    $("div").mouseleave(function(){
-        $("div").fadeTo("fast",0.5);    
+    $(".button").mouseleave(function(){
+        $(".button").fadeTo("fast",0.5);    
     });
 });
