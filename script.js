@@ -18,10 +18,14 @@ $(document).ready(function(){
       $('#player').fadeOut();
    });
    
+   
    $(".button").mouseenter(function(){
         $(".button").fadeTo("fast",1);
     });
     $(".button").mouseleave(function(){
         $(".button").fadeTo("fast",0.5);    
     });
+    
+    
+    $('controller').animate({ top: '+=100px'}, 1000);
 });
