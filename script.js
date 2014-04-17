@@ -36,6 +36,6 @@ $(document).ready(function(){
 		$('#player').effect('explode');
 	});
 	
-	$("#up-btn").accordion({collapsible: true, active: false});
+	
    
 });
