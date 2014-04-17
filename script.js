@@ -26,7 +26,7 @@ $(document).ready(function(){
         $(".button").fadeTo("fast",0.5);    
     });
     
-   $('#b-btn').click(function(){
+   $('#up-btn').click(function(){
       $('#player').effect('bounce',{time:5},500);
    });
    
