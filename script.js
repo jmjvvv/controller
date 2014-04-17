@@ -27,7 +27,7 @@ $(document).ready(function(){
     });
     
     $(".button").click(function(){
-        $(this).effect('bounce', {times:3}, 500);
+        $(".button").effect('bounce', {times:3}, 500);
     });
    
 });
