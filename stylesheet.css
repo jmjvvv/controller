@@ -6,7 +6,7 @@ html, body {
 
 
 #player {
-	position: center;
+	position: absolute;
 
 	top: 50%;
 	left: 50%;
