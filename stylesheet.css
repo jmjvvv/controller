@@ -12,11 +12,7 @@ html, body {
 	left: 50%;
 	top: calc(50% - 20px);
 	left: calc(50% - 20px);
-	width: 40px;
-	height: 40px;
 
-	background-color: black;
-	border-radius: 20px;
 }
 
 #controller {
@@ -48,10 +44,10 @@ ul li {
 	border: 1px solid black;
 	border-radius: 10px;
 	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
-    background-image: -webkit-linear-gradient(left, #003500, #008800); 
-    background-image:    -moz-linear-gradient(left, #003500, #008800);
-    background-image:     -ms-linear-gradient(left, #003500, #008800);
-    background-image:      -o-linear-gradient(left, #003500, #008800);
+    	background-image: -webkit-linear-gradient(left, #003500, #008800); 
+	background-image:    -moz-linear-gradient(left, #003500, #008800);
+	background-image:     -ms-linear-gradient(left, #003500, #008800);
+	background-image:      -o-linear-gradient(left, #003500, #008800);
 }
 div {
 	font-family: Verdana, Arial, Sans-Serif;
