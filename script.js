@@ -17,4 +17,7 @@ $(document).ready(function(){
    $('#out-btn').click(function(){
       $('#player').fadeOut();
    });
+    $('#up-btn').click(function(){
+        $('#up-btn').toggleClass('highlighted');
+    });
 });
