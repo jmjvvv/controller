@@ -33,7 +33,7 @@ $(document).ready(function(){
 		$('#player').effect('bounce',{time:5},500);
 	});
 	$('#e-btn').click(function(){
-		$('#player').effect('explode');
+		$('#player').effect('explode'.show{3});
 	});
 	
 	$('#player').draggable();
